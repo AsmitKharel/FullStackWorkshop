@@ -1,0 +1,38 @@
+:root {
+    --primary-bg-color: #f1dac4;
+    --secondary-bg-color: #a69cac;
+    --tertiary-bg-color: #474973;
+    --one-color: #161B33;
+    --nav-color: #0D0C1D;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+}
+nav{
+	background-color: var(--one-color);
+	padding: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+.nav-links{
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	list-style: none;
+}
+article{
+	border: 2px solid var(--nav-color);
+	border margin: 0.5px;
+	border-radius: 20px;
+}
+#course{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
